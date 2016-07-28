@@ -23,10 +23,6 @@ The source code of any plug-in consists of the following files:
 
 * **SeamCarvingPluginFactory.hpp:** This file has a global description of the programe, such as the type of data supported by the plug-in (image components, bit depth, tile rendering, etc.).
 
-Contient les définitions et déclarations des données visibles du plug-in. C'est ici que l'on définira
-les commandes (boutons, switch...) sur lesquels l'utilisateur peut intervenir pour modifier
-facilement les paramètres entrant dans l'algorithme du plug-in.
-
 * **SeamCarvingPlugin.hpp:** In this file the plug-in is defined as a node (of Nuke). The inputs and outputs of the node are declared.
 
 * **SeamCarvingProcess.tcc:** This file is the heart of the program. It contains the implementation of the SeamCarving algorithm.
