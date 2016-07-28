@@ -17,7 +17,7 @@ Seam carving (or liquid rescaling) is an algorithm for content-aware image resiz
 
 The source code of any plug-in consists of the following files:
 
-* **mainEntry.cpp: ** This file has the plug-in identifiers and allow access to some files to the host software (Nuke in this case).
+* **mainEntry.cpp:** This file has the plug-in identifiers and allow access to some files to the host software (Nuke in this case).
 
 * **SeamCarvingDefinitions.hpp:** Contains the definitions and declarations of the visible data (input) of the plug-in. It is in this file where the buttons, switchs, slides, etc... are defined so the user can interact with the application and provide input values.
 
